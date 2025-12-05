@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>АМ крутой</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <!-- Lightbox2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-zI2pQ3zKeJ0mP4oV+X8ZB6QeUOZ3tU2HqB0Y8rXz5bDPs3G8XHk9oV1mK3Yx7A5+8n4P0w7i1t2bZC2QqfQ3QQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="#hero" class="logo" aria-label="На главную">
+          <img src="assets/7. Бабочка.jpg" alt="Логотип центра" loading="lazy" />
+          <span class="logo-text">Edu<span class="accent">Center</span></span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Основная навигация">
+          <a href="#teachers">Преподаватели</a>
+          <a href="#results">Наши результаты</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">Частые вопросы</a>
+          <a href="#map">Как нас найти</a>
+        </nav>
+
+         <div class="header-actions desktop-actions">
+          <a class="btn btn-telegram" href="https://t.me/ffrolovv" target="_blank" rel="noopener">
+            <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+            Написать нам
+          </a>
+          <a class="btn btn-icon whatsapp" href="https://wa.me/79181570319" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="header-actions mobile-actions" aria-label="Быстрые контакты">
+          <a class="btn btn-icon" href="https://t.me/ffrolovv" target="_blank" rel="noopener" aria-label="Открыть Telegram">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a class="btn btn-icon whatsapp" href="https://wa.me/79181570319" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <button class="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <nav class="nav-mobile" aria-label="Мобильная навигация">
+          <a href="#advantages">Преимущества</a>
+          <a href="#teachers">Преподаватели</a>
+          <a href="#results">Наши результаты</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+          <a href="#map">Как нас найти</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mobile-menu-overlay"></div>
+
+    <!-- Hero -->
+    <section id="hero" class="hero" aria-label="Главный баннер">
+      <div class="swiper hero-swiper" aria-hidden="true">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/12. Вода.jpg" alt="Замок на фоне природы" loading="lazy" /></div>
+          <div class="swiper-slide"><img src="assets/9. Пустыня.jpg" alt="Пейзаж пустыни" loading="lazy" /></div>
+          <div class="swiper-slide"><img src="assets/10. Цветы.jpg" alt="Жираф на закате" loading="lazy" /></div>
+        </div>
+      </div>
+      <div class="hero-overlay" data-aos="fade-up">
+        <h1>Подготовка к ЕГЭ и ОГЭ: результат, которому можно доверять</h1>
+        <p>Индивидуальные и групповые занятия. <br>Преподаватели — практики с опытом.</p>
+        <a href="https://t.me/ffrolovv" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Записаться на тестирование</a>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="advantages" class="section advantages">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Наши преимущества</h2>
+        <div class="adv-grid" data-aos="fade-up" data-aos-delay="100">
+          <article class="adv-card">
+            <i class="fa-solid fa-calculator" aria-hidden="true"></i>
+            <h3>Средний балл по&nbsp;математике</h3>
+            <p>82</p>
+          </article>
+          <article class="adv-card">
+            <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+            <h3>Средний балл по&nbsp;информатике</h3>
+            <p>84</p>
+          </article>
+          <article class="adv-card">
+            <i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i>
+            <h3>Средний прирост баллов к&nbsp;первоначальному</h3>
+            <p>+70</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teachers -->
+    <section id="teachers" class="section teachers">
+      <div class="wave-divider top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Преподаватели</h2>
+
+        <!-- Teacher 1 (featured) - Алексей Максимович -->
+        <article class="teacher-card featured" data-aos="fade-up" aria-labelledby="t1-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t1-name" class="teacher-name">Алексей Максимович</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+                <li><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Информатика</li>
+              </ul>
+              <p>Руководитель центра <br><strong>Опыт работы&nbsp;&mdash; 10&nbsp;лет.</strong> <br> За&nbsp;это время выпустил сотни учеников, которые сегодня учатся в&nbsp;ведущих вузах Москвы, Санкт-Петербурга. Создает на&nbsp;занятиях атмосферу, в&nbsp;которой сочетаются душевная поддержка и&nbsp;требовательная дисциплина. Каждый год он&nbsp;лично проходит повышение квалификации и&nbsp;сдает ЕГЭ, чтобы знать экзамен изнутри и&nbsp;давать ученикам только самую актуальную информацию.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t1" data-panel="reviews" id="t1-reviews-btn" aria-controls="drawer-t1" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t1" data-panel="photos" id="t1-photos-btn" aria-controls="drawer-t1" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/2. Хаски.jpg" alt="Фото преподавателя Алексея Максимовича" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t1" role="region" aria-labelledby="t1-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Огромное спасибо за обучение моей дочери! Пришла к вам с нулевыми знаниями, а за год сдала ЕГЭ на 80 и 85 баллов и получила золотую медаль. Дочь была в восторге от каждого занятия, вы тактичны, доброжелательны и все объясняете доступно. Ваша заслуга в ее успехе неоценима!</p>
+                        <div class="author">— Ирина Алексеевна</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Отличный преподавательский состав и особый подход к учебе. Занятия проходят в доброжелательной обстановке, Алексей Максимович всегда предложит чай или кофе. Продуктивная атмосфера, нацеленная на результат. Рекомендую!</p>
+                        <div class="author">— Давид Сергеевич</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Алексей Максимович — лучший репетитор из всех, что у меня были! Благодаря ему я научилась решать задачи намного быстрее и легче. Занятия проходят в веселой и дружной обстановке. Если ищете репетитора — выбирайте его, не пожалеете!</p>
+                        <div class="author">— Дарья</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Супер-репетитор! Помог поднять результат с 22 баллов до 98 по математике! По информатике с нуля получила 85 баллов за 8 месяцев. Объясняет очень понятно, всегда был на связи и поддерживал. Приятная атмосфера на занятиях, советую всем!</p>
+                        <div class="author">— Арина</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Алексей Максимович — настоящий профессионал. За 8 месяцев поднял мои результаты с 46 до 96 баллов. Объясняет все просто и качественно, а в день экзамена прислал разборы заданий. Очень доволен подготовкой!</p>
+                        <div class="author">— Михаил Поладов</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Репетитор года! В августе написала пробник на 0 баллов, а после года занятий сдала ЕГЭ на 68! Никогда не верила, что смогу победить математику. С Алексеем Максимовичем это оказалось возможным. Очень рекомендую!</p>
+                        <div class="author">— Полина Гуща</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Уроки проходят в стильном светлом помещении, в приятной компании. Нет гнетущей атмосферы, преподаватель на одной волне с учениками. Даже живя далеко, я готова была ехать ради таких занятий. Спасибо за терпение и умение объяснять!</p>
+                        <div class="author">— Маркетта Чуяко</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Это не репетитор, а Бог математики, который научит не только понимать ее, но и любить. После занятий всегда выходила в приподнятом настроении, процесс учебы грамотно выстроен. Место учебы тоже классное, атмосфера самая подходящая!</p>
+                        <div class="author">— Вероника</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/4. Кот с наушниками.jpg" alt="Фото с занятия" data-full="assets/4. Кот с наушниками.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/7. Бабочка.jpg" alt="Фото с занятия" data-full="assets/7. Бабочка.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/5. Белый тигренок.jpg" alt="Работа ученика" data-full="assets/5. Белый тигренок.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/1. Черный кот с рыбкой.jpg" alt="Команда центра" data-full="assets/1. Черный кот с рыбкой.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 2 - Мия Дмитриевна -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t2-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t2-name" class="teacher-name">Мия Дмитриевна</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-language" aria-hidden="true"></i> Русский язык</li>
+              </ul>
+              <p><strong>Опыт преподавания&nbsp;&mdash; 6&nbsp;лет.</strong><br> Мия Дмитриевна&nbsp;&mdash; увлеченный педагог, который создает на&nbsp;занятиях уникальную атмосферу, где сочетаются требовательность к&nbsp;результату и&nbsp;душевная поддержка. Ее&nbsp;строгость всегда конструктивна и&nbsp;направлена на&nbsp;рост, а&nbsp;чувство юмора и&nbsp;искренняя вовлеченность помогают снять напряжение и&nbsp;превратить подготовку в&nbsp;осмысленный процесс. Благодаря такому балансу ученики не&nbsp;только успешно осваивают программу и&nbsp;сдают экзамены, но&nbsp;и&nbsp;начинают чувствовать уверенность в&nbsp;своих знаниях и&nbsp;силах.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t2" data-panel="reviews" id="t2-reviews-btn" aria-controls="drawer-t2" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t2" data-panel="photos" id="t2-photos-btn" aria-controls="drawer-t2" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/3. Леопард.jpg" alt="Фото преподавателя Мии Дмитриевны" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t2" role="region" aria-labelledby="t2-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимаюсь с начала лета, все супер! Очень привлекает, что если не успеваем дорешать задание или вариант, то можно задержаться бесплатно. Может для всех это норма, но для меня был шок, особенно после бывшего репетитора. Рекомендую!</p>
+                        <div class="author">— Евгений</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Сначала записался на русский, но так понравилась вся атмосфера всего, что здесь происходит, что через месяц записался и на математику. На занятиях весело, интересно, вкусно. Могу хоть 10 часов сидеть, вообще не устаю. Было бы общество, то и на общество бы ходил!</p>
+                        <div class="author">— Анонимный отзыв</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Ни разу не жалею, что нашел такого преподавателя на Авито. Вообще искать репетитора на Авито, это рандом мне кажется. Репетитора по русскому меняли три раза, например, а тут точное попадание.</p>
+                        <div class="author">— GoPro World</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Ни капли не жалею о том, что занимаюсь именно здесь. Атмосфера и общение с педагогом на высоте, как и способ подачи материала. Большинство запинок по программе отработали уже за 5 занятий! Если русский язык – это к Мие Дмитриевне.</p>
+                        <div class="author">— Никита</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Живая атмосфера обучения, комфортные занятия и русский язык вместе взятые не могут обойтись без Мии Дмитриевны - преподавателя, с которым даже зубрёжка становится увлекательным делом! С ней я понял, что русский не такой сложный, и что я определённо должен заниматься здесь. Просто супер!</p>
+                        <div class="author">— Паша</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимаюсь с Алексеем Максимовичем по информатике и Мией Дмитриевной по русскому языку уже 2 месяца. Преподаватели высшего класса — терпеливо и детально разбирают каждую тему, никогда не отказывают в повторении. Всегда на связи вне уроков, что очень выручает. Система регулярных пробников — это огромный плюс, так как видишь свой прогресс в реальном времени и понимаешь, над чем работать.</p>
+                        <div class="author">— Владислав</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хочу от всей души поблагодарить Мию Дмитриевну за невероятную работу! Она не просто объясняет правила, а помогает по‑настоящему понять логику языка. Благодаря ей я перестала бояться ошибок и начала получать удовольствие от занятий. Очень ценю её терпение и искреннюю заинтересованность в моём прогрессе!</p>
+                        <div class="author">— Арина</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимаюсь у Мии Дмитриевны. Отличный преподаватель, обладающий глубокими знаниями предмета. Помогает освоить большой объём материала. Очень терпелива, но требовательна. Меня это мотивирует к хорошему результату. Благодаря Мие Дмитриевне, я чувствую прогресс по русскому языку.</p>
+                        <div class="author">— Ксюша</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/7. Бабочка.jpg" alt="Фото 1" data-full="assets/7. Бабочка.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/6. Жираф.jpg" alt="Фото 2" data-full="assets/6. Жираф.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/9. Пустыня.jpg" alt="Фото 3" data-full="assets/9. Пустыня.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 3 - Софья Игоревна -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t3-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t3-name" class="teacher-name">Софья Игоревна</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+              </ul>
+              <p>Молодой педагог, который искренне горит своей работой и&nbsp;умеет увлечь математикой. На&nbsp;ее&nbsp;занятиях всегда царит спокойная и&nbsp;доброжелательная атмосфера. Она не&nbsp;просто объясняет темы к&nbsp;экзаменам или помогает подтянуть школьную программу, а&nbsp;учит мыслить логически. Ее&nbsp;искренняя увлеченность предметом делают математику понятной и&nbsp;интересной, а&nbsp;подготовку&nbsp;&mdash; комфортной и&nbsp;эффективной.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t3" data-panel="reviews" id="t3-reviews-btn" aria-controls="drawer-t3" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t3" data-panel="photos" id="t3-photos-btn" aria-controls="drawer-t3" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/5. Белый тигренок.jpg" alt="Фото преподавателя Софьи Игоревны" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t3" role="region" aria-labelledby="t3-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занятия проходят отлично, всем советую.</p>
+                        <div class="author">— Саня Ангелуша</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хорошая, дружеская атмосфера на занятии. За один раз усвоила больше информации, чем за 2 недели с другими репетиторами. Прогресс уже чувствуется. Нет давления, всё проходит спокойно, но очень продуктивно. Очень советую.</p>
+                        <div class="author">— Alina Rubachok</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хожу на занятия год, занятия очень помогли, стал понимать математику и улучшились оценки. И ещё преподаватель предлагает чай или кофе (чай вкусный!)!</p>
+                        <div class="author">— Артём</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Приятный человек, своё дело знает. Виден индивидуальный подход к каждому. Результат увидел спустя 3-4 занятия, рекомендую.</p>
+                        <div class="author">— Альберт</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Сначала записался на русский, но так понравилась атмосфера, что через месяц пришел и на математику. На занятиях весело, интересно и вкусно. Могу сидеть хоть 10 часов и не уставать. Если бы был предмет "общество", ходил бы и на него!</p>
+                        <div class="author">— Аноним</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t3">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/3. Леопард.jpg" alt="Фото 1" data-full="assets/3. Леопард.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/2. Хаски.jpg" alt="Фото 2" data-full="assets/2. Хаски.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/4. Кот с наушниками.jpg" alt="Фото 3" data-full="assets/4. Кот с наушниками.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 4 - Михаил Евгеньевич -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t4-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t4-name" class="teacher-name">Михаил Евгеньевич</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+                <li><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Информатика</li>
+              </ul>
+              <p><strong>Опыт работы&nbsp;&mdash; 4&nbsp;года.</strong><br> Его подход сочетает профессионализм и&nbsp;легкость общения: он&nbsp;не&nbsp;только эксперт в&nbsp;своем деле, но&nbsp;и&nbsp;душа компании. Ученики видят в&nbsp;нем не&nbsp;просто преподавателя, а&nbsp;старшего друга, который поддерживает, мотивирует и&nbsp;помогает преодолевать трудности. Занятия с&nbsp;ним&nbsp;&mdash; это сочетание эффективной подготовки, живого интереса к&nbsp;предмету и&nbsp;атмосферы взаимного доверия.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t4" data-panel="reviews" id="t4-reviews-btn" aria-controls="drawer-t4" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t4" data-panel="photos" id="t4-photos-btn" aria-controls="drawer-t4" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/4. Кот с наушниками.jpg" alt="Фото преподавателя Михаила Евгеньевича" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t4" role="region" aria-labelledby="t4-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимался у Михаила Евгеньевича. Отличный преподаватель, всегда все подробно объясняет, а если непонятно — повторяет. В течение недели всегда на связи, готов ответить на вопросы. Огромный плюс — систематические пробники для отслеживания прогресса.</p>
+                        <div class="author">— Родион</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Пришел с нулевыми знаниями по информатике, а за год дошел до 80 баллов! Занятия супер, нравилось приходить даже в выходной. Михаил Евгеньевич — очень умный и приятный репетитор. Всем друзьям советую.</p>
+                        <div class="author">— Максим</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Легендарное последнее занятие по информатике с Михаилом Евгеньевичем очень помогло на экзамене — сдал на 72 балла. Все учителя центра крутые, но он отдельно выручил. Спасибо за год продуктивной работы!</p>
+                        <div class="author">— Эдгар</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занятия с Михаилом Евгеньевичем были отдельным видом искусства. Мы не только учили математику, но и обсуждали жизнь, смеялись и плакали. Атмосфера была очень душевной, и даже сложные темы давались легко. Очень скучаю по этим занятиям!</p>
+                        <div class="author">— Даша</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Преподаватель действительно отличный: материал подаётся ясно, с логической структурой и наглядными примерами. Каждое занятие направлено на практическое закрепление, вопросы разбираются терпеливо и подробно. Уже через несколько уроков виден прогресс.</p>
+                        <div class="author">— Софья</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимаюсь математикой с Михаилом Евгеньевичем, готовимся к ЕГЭ. Хорошо подтянула свой уровень знаний. Легко и понятно объясняют всё, что непонятно, рассказывают быстрые и удобные способы решений. На занятиях очень комфортная обстановка, занятия проходят интересно и незаметно пролетает время с пользой.</p>
+                        <div class="author">— Арина</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хожу к Михаилу Евгеньевичу, за 2 месяца прекрасный результат. Прийдя с нулевыми знаниями, пишу пробники на 50-60 баллов. На самих занятиях все хорошо объясняют и показывают.</p>
+                        <div class="author">— Данил</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Я безмерно рада, что нашла таких преподавателей как Алексей Максимович и Михаил Евгеньевич, на математику я пришла со знаниями 7 класса и за полтора года смогла выбиться в люди 🙏( сдала егэ ). Атмосфера в центре всегда была дружеской, время пролетело незаметно, всегда было, что обсудить и посмеяться. Научилась мыть посуду и полы, благодаря не сделанной домашки. На инфу пришла, не зная, что такое питон, выросла с «Милена ноль» на «программист». Все темы, которые я не понимала повторяли до тех пор пока не доходило. Максимальное количество поддержки и капля стеба. Бывали конечно и грустные моменты (только у меня), слез было пролито нормально, зато на занятиях подкармливали, иногда даже тортик перепадал с чаем. Вообщем и целом я рада, что попала в этот центр. Как будто я бы еще годик походила сюда 😝❤️</p>
+                        <div class="author">— Милена</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t4">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/1. Черный кот с рыбкой.jpg" alt="Фото 1" data-full="assets/1. Черный кот с рыбкой.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/18. Замок Химэдзи.jpg" alt="Фото 2" data-full="assets/18. Замок Химэдзи.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/9. Пустыня.jpg" alt="Фото 3" data-full="assets/9. Пустыня.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 5 - Роман Игоревич -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t5-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t5-name" class="teacher-name">Роман Игоревич</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+                <li><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Информатика</li>
+              </ul>
+              <p><strong>Опыт работы&nbsp;&mdash; 4&nbsp;года.</strong><br> Его консервативный и&nbsp;ответственный подход к&nbsp;подготовке гарантирует прочное усвоение материала, а&nbsp;чувство юмора и&nbsp;умение интересно объяснять делают даже сложные темы доступными и&nbsp;увлекательными. Это идеальный баланс структурированности и&nbsp;живости преподавания, где требовательность сочетается с&nbsp;умением заинтересовать предметом.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t5" data-panel="reviews" id="t5-reviews-btn" aria-controls="drawer-t5" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t5" data-panel="photos" id="t5-photos-btn" aria-controls="drawer-t5" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/6. Жираф.jpg" alt="Фото преподавателя Романа Игоревича" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t5" role="region" aria-labelledby="t5-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Честно, выбрать подготовку к ЕГЭ с вами было лучшим решением за весь 11 класс. Настолько комфортно решать математику мне нигде не приходилось. Я буквально ждала каждого занятия, чтобы разобрать материал и научиться решать сложные задания. Вы не только дали огромный объем знаний, но и внушили уверенность, что ЕГЭ — это не страшно. Если бы пришлось готовиться снова, выбрала бы только вас!</p>
+                        <div class="author">— Мария</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Все нравится, преподаватели хорошо объясняют темы. Минусов нет, все понятно и доступно. Прогресс чувствуется после каждого занятия. Очень доволен качеством подготовки.</p>
+                        <div class="author">— Костя</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Мне понравилась удаленность центра и его особый «вайб». Менять практически нечего, разве что хотелось бы прямую трамвайную линию до дверей. В целом — все прикольно, занятия проходят продуктивно.</p>
+                        <div class="author">— Марк</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Очень нравится настрой преподавателей, легкое общение и связь с ними. Хотелось бы изменить интерьер — в текущей минималистичной обстановке чувствуешь себя как в стерильном помещении. Но в целом — ЛУЧШИЕ, просто нигде такого не видел!</p>
+                        <div class="author">— Богдан</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Интересный формат обучения, для каждого ученика индивидуальный подход. Занимаюсь с удовольствием и интересом, что раньше было редкостью. Несколько раз проходили сложные темы, которые до этого не мог разобрать — все объяснили доходчиво.</p>
+                        <div class="author">— Melennikov</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хороший репетитор. И накормит, и напоит, и научит. Объясняет понятно и внятно. А главное — крутые мемы и приятная атмосфера на занятиях. Рекомендую!</p>
+                        <div class="author">— Настя</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Перехожу в 9 класс, занимаюсь уже целый год. Самый главный вывод: экзамены только с этим преподавателем. Хожу не потому что мама заставляет, а потому что хочу. Всем советую!</p>
+                        <div class="author">— Александр Панченко</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Мне понравилась атмосфера в учебном центре. Преподаватели всегда готовы помочь и поддержать. Занятия проходили в дружелюбной обстановке, с кайфом. На матан я пришел с 10 баллами за пробник, ушел с 52 баллами!</p>
+                        <div class="author">— Аноним</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t5">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/7. Бабочка.jpg" alt="Фото 1" data-full="assets/7. Бабочка.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/3. Леопард.jpg" alt="Фото 2" data-full="assets/3. Леопард.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/5. Белый тигренок.jpg" alt="Фото 3" data-full="assets/5. Белый тигренок.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 6 - Ксения Викторовна -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t6-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t6-name" class="teacher-name">Ксения Викторовна</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+                <li><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Информатика</li>
+              </ul>
+              <p><strong>Опыт преподавания&nbsp;&mdash; 4&nbsp;года.</strong><br> Её&nbsp;доброта, спокойствие и&nbsp;неизменное терпение создают комфортную атмосферу, в&nbsp;которой ученик перестает бояться ошибок и&nbsp;начинает раскрывать свой потенциал. Она ответственно подходит к&nbsp;каждому занятию, уделяя внимание проработке всех деталей и&nbsp;сложных моментов.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t6" data-panel="reviews" id="t6-reviews-btn" aria-controls="drawer-t6" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t6" data-panel="photos" id="t6-photos-btn" aria-controls="drawer-t6" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/1. Черный кот с рыбкой.jpg" alt="Фото преподавателя Ксении Викторовны" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t6" role="region" aria-labelledby="t6-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Отличный репетиторский центр, благодаря Ксении Викторовне прогресс был виден уже со второго занятия. Первое занятие было тестированием, но после него сразу пошло улучшение. Замечательное место для занятий!</p>
+                        <div class="author">— Литовченко Глеб</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимаюсь с Ксенией Викторовной математикой и информатикой, и мне очень нравится! Мы разбираем все возможные варианты, время на занятиях пролетает незаметно. Мой балл значительно увеличился, а пробники помогают отслеживать прогресс. Однозначно рекомендую!</p>
+                        <div class="author">— Софа</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Вам большое спасибо. Понравилось в принципе всё, только повесьте зеркало, но преподавание прекрасное. Ни разу не жалею, что училась у вас!</p>
+                        <div class="author">— Николина</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Ксения Викторовна — репетитор, который действительно учит думать, а не просто решать по шаблону. Каждую тему она объясняет с разных сторон, пока не станет абсолютно понятно. Благодаря ей я не только поднял баллы, но и полюбил математику. Огромное спасибо за терпение и профессионализм!</p>
+                        <div class="author">— Артем</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Очень благодарны Ксении Викторовне за занятия с сыном! Репетитор нашла к нему подход с первого урока, смогла заинтересовать. Результат был заметен уже через месяц: в школе стали появляться пятёрки, а главное — исчез страх перед уроками. Очень рекомендуем!</p>
+                        <div class="author">— Мария (мама ученика)</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t6">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/2. Хаски.jpg" alt="Фото 1" data-full="assets/2. Хаски.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/4. Кот с наушниками.jpg" alt="Фото 2" data-full="assets/4. Кот с наушниками.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/6. Жираф.jpg" alt="Фото 3" data-full="assets/6. Жираф.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 7 - Отабек Ровшанович -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t7-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t7-name" class="teacher-name">Отабек Ровшанович</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+                <li><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Информатика</li>
+              </ul>
+              <p>Молодой специалист, который с&nbsp;легкостью находит общий язык с&nbsp;учениками любого возраста. Находится с&nbsp;детьми &laquo;на&nbsp;одной волне&raquo;. Отабек Ровшанович сочетает в&nbsp;себе душевность, доброту и&nbsp;высочайшую ответственность. Он&nbsp;внимательно следит за&nbsp;прогрессом каждого ученика, терпеливо разбирая сложные моменты, что делает его идеальным проводником в&nbsp;подготовке к&nbsp;ОГЭ.</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t7" data-panel="reviews" id="t7-reviews-btn" aria-controls="drawer-t7" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t7" data-panel="photos" id="t7-photos-btn" aria-controls="drawer-t7" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/сигма.jpg" alt="Фото преподавателя Отабека Ровшановича" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t7" role="region" aria-labelledby="t7-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Все хорошо и быстро объясняет на понятном языке. Очень приятное помещение со всем для спокойного и комфортного занятия. За 2 месяца занятия я уже могу писать ОГЭ на 4. На занятиях не только объясняет всё отлично, но и создаётся приятная атмосфера.</p>
+                        <div class="author">— Ваня</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Отабек Ровшанович хороший репетитор, если не понятна тема объяснит несколько раз пока не пойму. Приятная обстановка во время урока. Темы в которых не шарила от слова совсем стали мне понятны. Отабек Ровшанович просто супер 🔥</p>
+                        <div class="author">— Люда</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Мне нравится, как Отабек Ровшанович преподает материал, все четко, понятно и доступно. Он терпеливо и с любовью отвечает на все вопросы, готов всегда помочь и подсказать. Благодаря его урокам, я стала понимать информатику, но все еще впереди. Спасибо за терпение и увлекательный подход к обучению.</p>
+                        <div class="author">— Вика</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занималась с 9 класса, за два месяца подготовилась и ОГЭ сдала прекрасно. Готовилась к ЕГЭ по профильной математике два года, и ни разу не пожалела. На экзамене все задания были прорешены, никакой паники. Спасибо Вам большое!</p>
+                        <div class="author">— Лиана</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хочу поблагодарить Отабека Ровшановича за занятия с моим сыном. Репетитор нашёл к подростку подход, смог заинтересовать предметом. За три месяца занятий у сына исправилась годовая оценка с тройки на твёрдую четвёрку. Очень довольны результатом и атмосферой на уроках!</p>
+                        <div class="author">— Сергей (родитель ученика)</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Готовлюсь к ОГЭ по информатике с Отабеком Ровшановичем. Объясняет просто гениально — настолько доступно, что даже программирование кажется лёгким. Всегда отвечает на любые вопросы, поддерживает, если что-то не получается. Чувствую себя уверенно и готова к экзамену!</p>
+                        <div class="author">— Диана</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t7">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/9. Пустыня.jpg" alt="Фото 1" data-full="assets/9. Пустыня.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/7. Бабочка.jpg" alt="Фото 2" data-full="assets/7. Бабочка.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/3. Леопард.jpg" alt="Фото 3" data-full="assets/3. Леопард.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Teacher 8 - Михаил Заурович -->
+        <article class="teacher-card" data-aos="fade-up" aria-labelledby="t8-name">
+          <div class="teacher-content">
+            <div class="teacher-text">
+              <h3 id="t8-name" class="teacher-name">Михаил Заурович</h3>
+              <div class="teacher-rating" aria-label="Рейтинг 5 из 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-value">5.0</span>
+              </div>
+              <ul class="teacher-subjects" aria-label="Предметы">
+                <li><i class="fa-solid fa-calculator" aria-hidden="true"></i> Математика</li>
+              </ul>
+              <p>Молодой, но глубокий профессионал, который превращает сложные темы в ясные и логичные конструкции. Его спокойная, вдумчивая манера преподавания помогает ученикам не только усваивать материал, но и понимать предмет и видеть закономерности. Идеальный выбор для тех, кто хочет не просто «натаскаться» на экзамен, а по-настоящему разобраться в математике и информатике!</p>
+              <div class="teacher-actions">
+                <button class="btn btn-outline drawer-toggle" data-target="drawer-t8" data-panel="reviews" id="t8-reviews-btn" aria-controls="drawer-t8" aria-expanded="false">Посмотреть отзывы</button>
+                <button class="btn btn-secondary drawer-toggle" data-target="drawer-t8" data-panel="photos" id="t8-photos-btn" aria-controls="drawer-t8" aria-expanded="false">Посмотреть фотографии</button>
+              </div>
+            </div>
+            <div class="teacher-photo">
+              <img src="assets/Сигмыч.png" alt="Фото преподавателя Михаила Зауровича" loading="lazy" />
+            </div>
+          </div>
+          <div class="teacher-drawer" id="drawer-t8" role="region" aria-labelledby="t8-reviews-btn" hidden>
+            <div class="drawer-inner">
+              <div class="drawer-panel reviews-panel">
+                <div class="swiper reviews-swiper" data-initialized="false">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Хочу поблагодарить Михаила Зауровича за подготовку к профильной математике! Он объясняет всё до мельчайших деталей, спокойно и очень понятно. Благодаря ему я не только улучшила баллы, но и начала наконец-то понимать сложные темы. Очень рекомендую этого внимательного и терпеливого педагога!</p>
+                        <div class="author">— Аня</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Михаил Заурович — потрясающий репетитор. Он умеет разложить любую тему на простые части, даже если в школе её объясняли запутанно. Заниматься с ним комфортно, нет никакого давления, только ясность и результат. Я стал увереннее в своих силах и смог решать задачи, которые раньше казались невозможными.</p>
+                        <div class="author">— Денис</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Михаил Заурович — молодой, но очень грамотный специалист. Его спокойная манера преподавания и глубина объяснений помогли мне заполнить все пробелы в знаниях. Он не просто даёт теорию, а показывает взаимосвязи, о которых часто умалчивают в школе. Спасибо за терпение и профессионализм!</p>
+                        <div class="author">— Кристина</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Занимался с Михаилом Зауровичем информатикой, и это был лучший учебный опыт. Он мог час объяснять одну тему, пока я не понимал её полностью. Его подход — это сочетание глубоких знаний и умения донести их до ученика любого уровня (даже до меня). Теперь я чувствую себя готовым к экзамену на все свои 70 баллов.</p>
+                        <div class="author">— Павел</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="swiper-slide">
+                      <article class="review-card">
+                        <div class="stars" aria-label="5 из 5">★★★★★</div>
+                        <p>Михаил Заурович занимается с моим сыном математикой уже полгода. Ребёнок, который раньше боялся предмета, теперь с удовольствием решает задачи. Преподаватель удивительно терпелив, объясняет всё до мелочей, находит индивидуальный подход. Мы очень довольны прогрессом и атмосферой на занятиях!</p>
+                        <div class="author">— Ольга (мама ученика)</div>
+                        <div class="review-overlay">
+                          <button class="btn-read-more">Читать полностью</button>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="drawer-panel photos-panel" hidden>
+                <div class="swiper photos-swiper-gallery" data-gallery="t8">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/9. Пустыня.jpg" alt="Фото 1" data-full="assets/9. Пустыня.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/7. Бабочка.jpg" alt="Фото 2" data-full="assets/7. Бабочка.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="gallery-item">
+                        <img src="assets/3. Леопард.jpg" alt="Фото 3" data-full="assets/3. Леопард.jpg" />
+                        <div class="gallery-item__overlay">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <div class="wave-divider bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="section results">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Наши результаты</h2>
+        <div class="results-slider-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper results-swiper">
+            <div class="swiper-wrapper">
+              <!-- Student card 1 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/1. Черный кот с рыбкой.jpg" alt="Фото ученицы" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Арина — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="22" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="98" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступила в Москву в МИСиС</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 2 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/2. Хаски.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Кирилл — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="22" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="88" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в ВШЭ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 3 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/3. Леопард.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Тимур — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="6" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="88" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в МИСиС</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 4 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/4. Кот с наушниками.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Андрей — Информатика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="0" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="100" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Ростов в ЮФУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 5 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/5. Белый тигренок.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Глеб — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="17" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="94" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Питер СПбГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 6 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/6. Жираф.jpg" alt="Фото ученицы" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Дарья — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="11" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="94" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступила в КубГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 7 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/7. Бабочка.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Родион — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="11" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="90" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в МГИМО</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 8 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/9. Пустыня.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Михаил — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="46" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="96" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в КубГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 9 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/10. Цветы.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Тимур — Русский язык</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="39" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="91" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в МИСиС</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 10 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/12. Вода.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Руслан — Информатика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="27" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="83" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в Бауманку</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 11 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/18. Замок Химэдзи.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Родион — Информатика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="0" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="80" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Москву в МГТУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 12 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/1. Черный кот с рыбкой.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Яков — Информатика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="27" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="95" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Питер СПбГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 13 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/2. Хаски.jpg" alt="Фото ученицы" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Софья — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="22" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="88" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступила в КубГАУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 14 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/3. Леопард.jpg" alt="Фото ученицы" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Вероника — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="27" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="82" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступила в Москву в МГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+              <!-- Student card 15 -->
+              <div class="swiper-slide">
+                <article class="result-card">
+                  <img class="avatar" src="assets/4. Кот с наушниками.jpg" alt="Фото ученика" loading="lazy" />
+                  <div class="result-head">
+                    <h3>Егор — Профильная математика</h3>
+                  </div>
+                  <div class="donuts">
+                    <div class="donut" data-from="34" data-label="До"></div>
+                    <div class="arrow" aria-hidden="true">→</div>
+                    <div class="donut" data-to="84" data-label="После"></div>
+                  </div>
+                  <img class="mini-chart" src="assets/Время от времени.jpg" alt="Мини-график роста баллов" loading="lazy" />
+                  <div class="achievement"><i class="fa-solid fa-university" aria-hidden="true"></i> Поступил в Питер СПбГУ</div>
+                  <a href="#hero" class="btn btn-primary">Хочу также</a>
+                </article>
+              </div>
+
+            </div>
+          </div>
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev results-button-prev"></div>
+          <div class="swiper-button-next results-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Masonry -->
+    <section id="reviews" class="section reviews-masonry">
+      <div class="wave-divider top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Отзывы</h2>
+      </div>
+      
+      <!-- Верхний слайдер (едет направо) -->
+      <div class="reviews-slider-wrapper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper reviews-swiper reviews-swiper-right">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Потрясающая методика! Ребёнок стал уверенным на экзаменах. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <div class="author">— Наталья</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>С первого занятия виден прогресс. Чёткий план и разбор ошибок. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <div class="author">— Денис</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Удобное расписание и внимательный подход к ученику. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima est distinctio nesciunt, aperiam quae laborum! Amet dolores dolor odit ducimus, commodi, alias consequatur provident itaque dicta ut distinctio, qui mollitia! Magnam ducimus non voluptas libero explicabo esse corporis quas. Dicta ratione necessitatibus cumque eos totam, architecto praesentium nihil tempora ullam id incidunt at sequi illo a aspernatur deleniti tenetur nulla fuga tempore saepe cum rerum voluptates vero. Voluptas nulla, eos, consectetur nam sunt laboriosam amet illo nihil odit distinctio repudiandae fuga necessitatibus? Accusamus eum, doloribus odio cum delectus sed veritatis reiciendis sequi expedita fugiat explicabo odit mollitia consequuntur temporibus ipsa sunt aliquam laborum! Voluptatem corporis totam beatae voluptas provident adipisci! Dolorem placeat ratione sunt quas eveniet nostrum soluta dolorum magni, aliquam quidem adipisci modi nam unde sapiente facilis, consequuntur quaerat veniam quis excepturi cum at, autem rem vitae? Aperiam impedit architecto ipsam placeat? Illum quis error suscipit accusantium ullam saepe mollitia neque in blanditiis fugit, ratione maxime sit iste? Ex minima consequuntur eveniet doloremque, sapiente, earum ea alias similique aut omnis molestias! Nulla accusamus ipsum voluptate facilis tempora dolore corrupti dolor aliquam quis autem laudantium, suscipit rerum temporibus, amet molestias. Atque eaque ratione id cum velit nemo exercitationem. Numquam, consectetur!</p>
+                <div class="author">— Алиса</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Настоящие профессионалы. Результат превзошёл ожидания!</p>
+                <div class="author">— Пётр</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Сын полюбил математику, теперь решает задачи с интересом.</p>
+                <div class="author">— Елена</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Приятная атмосфера и эффективные занятия. Рекомендую!</p>
+                <div class="author">— Ирина</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Нижний слайдер (едет налево) -->
+      <div class="reviews-slider-wrapper" data-aos="fade-up" data-aos-delay="200">
+        <div class="swiper reviews-swiper reviews-swiper-left">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Серьёзная подготовка к ЕГЭ, все темы закрыли вовремя.</p>
+                <div class="author">— Максим</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Огромная поддержка и мотивация, спасибо преподавателям!</p>
+                <div class="author">— Виктория</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Занятия интересные, много практики и лайфхаков.</p>
+                <div class="author">— Артём</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Грамотные разборы. Итог — 90+ по двум предметам.</p>
+                <div class="author">— Софья</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Комфортная обратная связь для ребёнка и родителей.</p>
+                <div class="author">— Павел</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="review-card">
+                <div class="stars" aria-label="5 из 5">★★★★★</div>
+                <p>Спасибо за поддержку и веру! Мы очень довольны.</p>
+                <div class="author">— Марина</div>
+                <div class="review-overlay">
+                  <button class="btn-read-more">Читать полностью</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="wave-divider bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Частые вопросы</h2>
+        <div class="faq__list" data-aos="fade-up" data-aos-delay="100">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Сможете&nbsp;ли вы&nbsp;помочь, если у&nbsp;ребенка совсем низкий уровень по&nbsp;предмету?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Да, конечно. Большинство наших учеников приходят именно с&nbsp;этой ситуацией. Мы&nbsp;специализируемся на&nbsp;том, чтобы выявлять пробелы и&nbsp;системно их&nbsp;устранять. Наши педагоги умеют объяснять сложные темы простыми словами и&nbsp;находят подход к&nbsp;детям с&nbsp;разным уровнем подготовки.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Как происходит выбор преподавателя? Можно&nbsp;ли его поменять?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Мы&nbsp;подбираем преподавателя исходя из&nbsp;целей, уровня и&nbsp;темперамента ученика. Если по&nbsp;каким-то причинам контакт или формат занятий не&nbsp;подойдет&nbsp;&mdash; да, мы&nbsp;бесплатно заменим преподавателя в&nbsp;процессе обучения. Ваш комфорт и&nbsp;результат&nbsp;&mdash; наш приоритет.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Вы&nbsp;готовите только к&nbsp;экзаменам или можно подтянуть школьную программу?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Мы&nbsp;занимаемся всем спектром задач: подготовка к&nbsp;ОГЭ и&nbsp;ЕГЭ, повышение успеваемости, устранение пробелов в&nbsp;знаниях, подготовка к&nbsp;школе и&nbsp;олимпиадам. Вы&nbsp;всегда можете обратиться с&nbsp;вашей конкретной целью.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Как вы&nbsp;отслеживаете прогресс ученика?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Мы&nbsp;регулярно проводим контрольные срезы знаний и&nbsp;тестирования в&nbsp;формате экзамена. Родители получают обратную связь от&nbsp;педагога: о&nbsp;текущих успехах, посещаемости и&nbsp;зонах роста. Вы&nbsp;всегда в&nbsp;курсе прогресса.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Каков формат занятий? Есть&nbsp;ли группы?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Мы&nbsp;предлагаем два основных формата: индивидуальные занятия один на&nbsp;один с&nbsp;репетитором и&nbsp;занятия в&nbsp;мини-группах (2-4&nbsp;человека). Индивидуальный формат позволяет работать точечно над запросом, а&nbsp;занятия в&nbsp;группе эффективны за&nbsp;счет здоровой конкуренции и&nbsp;меньшей стоимости.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="section map-section">
+      <div class="wave-divider top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Как нас найти</h2>
+      </div>
+      <div class="map-wrapper" data-aos="fade-up" data-aos-delay="100">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a11d6331805623f639521cefd4f4bd68cfa7bfd98ea115ffce1c5cf2462896b&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+         <div class="map-overlay" role="group" aria-label="Информация о локации">
+           <div class="map-info">
+             <p><strong>Адрес:</strong> <span id="address-text">Уральская улица, 75к1</span></p>
+             <p><strong>Режим работы:</strong> Ежедневно с 9:00 до 22:00</p>
+           </div>
+           <a id="route-btn" href="#" target="_blank" rel="noopener" class="btn btn-primary">Построить маршрут</a>
+         </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacts" class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="logo small">
+            <img src="assets/7. Бабочка.jpg" alt="Логотип центра" loading="lazy" />
+            <span class="logo-text">Edu<span class="accent">Center</span></span>
+          </div>
+          <p>Подготовка к ЕГЭ и ОГЭ</p>
+        </div>
+        <nav class="footer-nav" aria-label="Навигация подвала">
+          <a href="#advantages">Преимущества</a>
+          <a href="#teachers">Преподаватели</a>
+          <a href="#results">Результаты</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">Частые вопросы</a>
+          <a href="#map">Как нас найти</a>
+        </nav>
+         <div class="footer-contacts">
+          <a href="https://t.me/ffrolovv" target="_blank" rel="noopener" class="btn-footer btn-footer-telegram">
+            <i class="fa-brands fa-telegram"></i> Telegram
+          </a>
+          <a href="https://wa.me/79181570319" target="_blank" rel="noopener" class="btn-footer btn-footer-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Copyright -->
+    <div class="copyright-bar">
+      <p>© <span id="year"></span> EduCenter. Все права защищены</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Gallery Modal -->
+    <div class="gallery-modal">
+      <div class="gallery-modal__content">
+        <button class="gallery-modal__close" aria-label="Закрыть">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="gallery-modal__image-container">
+          <img class="gallery-modal__image" src="" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Modal -->
+    <div class="review-modal">
+      <div class="review-modal__content">
+        <button class="review-modal__close" aria-label="Закрыть">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="review-modal__body">
+          <div class="stars review-modal__stars"></div>
+          <p class="review-modal__text"></p>
+          <div class="author review-modal__author"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Vy4vZb9jE+sQYtmmwGqY5m9Y9e6v8Z8XuhcRrW2l0M1K1PMv3b4nqgYFh9T+qZKp2A4t3wWzGR5a0er2K3D1VQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Local JS -->
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+
+
